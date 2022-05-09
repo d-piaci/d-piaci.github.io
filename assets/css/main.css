@@ -72,7 +72,7 @@ input, select, textarea {
 	appearance: none;
 }
 .apa-reference {
-    padding-left: -1.25em; text-indent: -36px}
+    padding-left: 50%; text-indent: -50%}
 /* Row */
 
 	.row {
