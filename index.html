@@ -130,30 +130,31 @@
 
 						<!-- Contact -->
 							<article id="contact" class="panel">
-								<header>
-									<h2>Contact Me</h2>
-								</header>
-								<form action="contact.php" method="post">
-									<div>
-										<div class="row">
-											<div class="col-6 col-12-medium">
-												<input type="text" name="name" placeholder="Name" />
-											</div>
-											<div class="col-6 col-12-medium">
-												<input type="text" name="email" placeholder="Email" />
-											</div>
-											<div class="col-12">
-												<input type="text" name="subject" placeholder="Subject" />
-											</div>
-											<div class="col-12">
-												<textarea name="message" placeholder="Message" rows="6"></textarea>
-											</div>
-											<div class="col-12">
-												<input type="submit" value="Send Message" />
-											</div>
-										</div>
+								<head>
+								    <title>Contact Form</title>
+								</head>
+								<body>
+								    <h3>Contact us</h3>
+								    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact.php">
+									    <label for="Name" class="fcf-label">Your name</label>
+									    <div class="fcf-input-group">
+										<input type="text" id="Name" name="Name" class="fcf-form-control" required>
+									    </div>
+									<div class="fcf-form-group">
+									    <label for="Email" class="fcf-label">Your email address</label>
+									    <div class="fcf-input-group">
+										<input type="email" id="Email" name="Email" class="fcf-form-control" required>
+									    </div>
+									<div class="fcf-form-group">
+									    <label for="Message" class="fcf-label">Your message</label>
+									    <div class="fcf-input-group">
+										<textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+									    </div>
 									</div>
-								</form>
+									<div class="fcf-form-group">
+									    <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
+									</div>
+								</body>
 							</article>
 
 					</div>
