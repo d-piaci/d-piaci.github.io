@@ -71,8 +71,7 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
-.apa-reference {padding-left: 22px; 
-	text-indent: -22px}
+.apa-reference { text-indent: -2%}
 /* Row */
 
 	.row {
