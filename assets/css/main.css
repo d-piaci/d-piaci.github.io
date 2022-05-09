@@ -73,7 +73,7 @@ input, select, textarea {
 }
 .apa-reference { text-indent: -2%}
 .blah { text-indent: 5%}
-
+a:link {color: red;}
 /* Row */
 
 	.row {
