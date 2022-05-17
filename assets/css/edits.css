@@ -17,7 +17,7 @@
   }
 }
 #nav a span {
-  font-size: 0.5em;
+  font-size: 0.4em;
 }
 
 #contact {
@@ -29,4 +29,9 @@ input[type="email"] {
 }
 textarea {
   resize: vertical;
+}
+/* citation indent */
+.row .apa-reference {
+  text-indent: -5%;
+  padding-left: calc(1.25em + 5%);
 }
