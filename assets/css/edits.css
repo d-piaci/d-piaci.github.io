@@ -1,0 +1,32 @@
+#contact p {
+  margin: 2em 0 0 0;
+}
+#contact input[type="submit"] {
+  margin-right: 0.5em;
+}
+@media screen and (max-width: 736px) {
+  #contact input[type="submit"] {
+    margin-bottom: 0.5em;
+  }
+  #contact input[type="submit"],
+  #contact input[type="reset"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+}
+#nav a span {
+  font-size: 0.5em;
+}
+
+#contact {
+  padding-top: 0;
+}
+textarea,
+input[type="email"] {
+  color: black;
+}
+textarea {
+  resize: vertical;
+}
