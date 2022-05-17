@@ -1,141 +1,222 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--
 	Astral by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Daniel R. Piacitelli</title>
+  <head>
+    <title>Daniel R. Piacitelli</title>
 
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="icon" href="images/otter-solid.png">
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		
-		<script src="https://kit.fontawesome.com/18b7d6166a.js" crossorigin="anonymous"></script>
-	</head>
-	<body class="is-preload">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/edits.css" />
+    <link rel="icon" href="images/otter-solid.png" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
 
-		<!-- Wrapper-->
-			<div id="wrapper">
-				<!-- Nav -->
-					<nav id="nav">
-						<a href="#" class="icon solid fa-door-open"><span>Welcome</span></a>
-						<a href="#about" class="icon solid fa-user-astronaut"><span>About me</span></a>
-						<a href="#work" class="icon solid fa-hurricane"><span>My Research</span></a>
-						<a href="#pubs" class="icon solid fa-book"><span>Past Work</span></a>
-						<a href="#contact" class="icon solid fa-paper-plane"><span>Contact</span></a>  
-					</nav>
-				<!-- Main -->
-					<div id="main">
+    <script
+      src="https://kit.fontawesome.com/18b7d6166a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper-->
+    <div id="wrapper">
+      <!-- Nav -->
+      <nav id="nav">
+        <a href="#" class="icon solid fa-door-open"><span>Welcome</span></a>
+        <a href="#about" class="icon solid fa-user-astronaut"
+          ><span>About Me</span></a
+        >
+        <a href="#work" class="icon solid fa-hurricane"
+          ><span>My Research</span></a
+        >
+        <a href="#pubs" class="icon solid fa-book"><span>Past Work</span></a>
+        <a href="#contact" class="icon solid fa-paper-plane"
+          ><span>Contact</span></a
+        >
+      </nav>
+      <!-- Main -->
+      <div id="main">
+        <!-- Me -->
+        <article id="home" class="panel intro">
+          <header>
+            <h1>Daniel R. Piacitelli</h1>
 
-						<!-- Me -->
-							<article id="home" class="panel intro">
-								<header>
-									<h1>Daniel R. Piacitelli</h1>
-									
-									<h5 style="color:#72747E;">piacitelli.danielr@gmail.com</h5>
-								</header>
-								<img src="images/headshot_orange.jpg" alt="" width="65%" height="120%">
-							</article>
+            <h5 style="color: #72747e">piacitelli.danielr@gmail.com</h5>
+          </header>
+          <img
+            src="images/headshot_orange.jpg"
+            alt="headshot"
+            width="65%"
+            height="120%"
+          />
+        </article>
 
-						<!-- Research -->
-							<article id="work" class="panel">
-								<header>
-									<h2>Current Research</h2>
-								</header>
-								<p>
-									**put rutgers research here**
-								</p>
-								<section>
-				
-								</section>
-							</article>
-						<article id="pubs" class="panel">
-								<header>
-									<h2>Past Work</h2>
-								</header>
-								<h3>CGM Emission</h3>
-								<section>
-									
-									<div class="row">
-									<p class="blah">The aim of this project was to identify the most promising visible/ultraviolet spectral lines with which to observe the circumgalactic medium (CGM).
-										Utilizing the spectral synthesis code, Cloudy (cite), along with the atomic database Chianti, (cite), I was able to create this table that contains the various values needed to calculate the intensity in a given spectral line. 
-										This table serves as both a listing of lines we studied in this project and a database to help inform future CGM emission studies. </p>
-										<img src="images/PiacitelSolhaug22_Tab1.png" alt="" width="100%" height="120%">
-										<p class="blah">With this data, I was able to test different conditions by assuming various density scaling (isobaric vs isochoric) and gas physics (mixing vs cooling). 
-											This provided 4 models to test the intensity profiles of the CGM, shown below.</p>
-										<img src="images/PiacitelSolhaug22_Fig5.png" alt="" width="100%" height="120%">
-										<p class="blah">Ultimately, we concluded </p>
-										<p class ="apa-reference"> <strong>Piacitelli, D.</strong>, Solhaug, E., Faerman, Y., & Mcquinn, M. “Absorption-based Circumgalactic Medium Line Emission Estimates” (submitted to MNRAS) <strong>2022</strong> </p>
-									</div>
-								</section><section>
-								<h3>Synthetic Spectra</h3>
-									<div class="row">	
-										
-										<p class="blah"> edit this --> I utilized novel synthetic spectroscopy techniques to determine column densities and velocity distributions of various ions within the Patient0 galaxy simulation and a second Patient0 iteration with CR physics implemented. 
-											Extracting this data using Python-based, observer-developed Voigt profile fitting tools (linetools, pyigm, veeper), I was able to directly compare spectral line properties in our simulation to observations in the COS-Halos survey—these contributions to the project resulted in my co-authorship on the publication. 
-											Ultimately, we found the im- plementation of CR physics produced simulated O vi and Si iii absorption feature widths in better agreement with observations.</p>
-										<p class ="apa-reference"> Butsky, I., Werk, J., Tchernyshyov, K., Fielding, D., Breneman, J., <strong>Piacitelli, D.</strong>, Quinn, T., Sanchez,  N., Cruz, A., Hummels, C., et al., “The Impact of Cosmic Rays on the Kinematics of the Circumgalactic Medium,” (submitted to ApJ) <strong>2021</strong>
-										</p>
-									</div>
-								</section>
-			
-									
-							
-							</article>
-						<article id="about" class="panel">
-								<header>
-									<h2>Hello!</h2>
-								</header>
+        <!-- Research -->
+        <article id="work" class="panel">
+          <header>
+            <h2>Current Research</h2>
+          </header>
+          <p>**put rutgers research here**</p>
+          <section></section>
+        </article>
+        <article id="pubs" class="panel">
+          <header>
+            <h2>Past Work</h2>
+          </header>
+          <h3>CGM Emission</h3>
+          <section>
+            <div class="row">
+              <p class="blah">
+                The aim of this project was to identify the most promising
+                visible/ultraviolet spectral lines with which to observe the
+                circumgalactic medium (CGM). Utilizing the spectral synthesis
+                code, Cloudy (cite), along with the atomic database Chianti,
+                (cite), I was able to create this table that contains the
+                various values needed to calculate the intensity in a given
+                spectral line. This table serves as both a listing of lines we
+                studied in this project and a database to help inform future CGM
+                emission studies.
+              </p>
+              <img
+                src="images/PiacitelSolhaug22_Tab1.png"
+                alt=""
+                width="100%"
+                height="120%"
+              />
+              <p class="blah">
+                With this data, I was able to test different conditions by
+                assuming various density scaling (isobaric vs isochoric) and gas
+                physics (mixing vs cooling). This provided 4 models to test the
+                intensity profiles of the CGM, shown below.
+              </p>
+              <img
+                src="images/PiacitelSolhaug22_Fig5.png"
+                alt=""
+                width="100%"
+                height="120%"
+              />
+              <p class="blah">Ultimately, we concluded</p>
+              <p class="apa-reference">
+                <strong>Piacitelli, D.</strong>, Solhaug, E., Faerman, Y., &
+                Mcquinn, M. “Absorption-based Circumgalactic Medium Line
+                Emission Estimates” (submitted to MNRAS) <strong>2022</strong>
+              </p>
+            </div>
+          </section>
+          <section>
+            <h3>Synthetic Spectra</h3>
+            <div class="row">
+              <p class="blah">
+                edit this --> I utilized novel synthetic spectroscopy techniques
+                to determine column densities and velocity distributions of
+                various ions within the Patient0 galaxy simulation and a second
+                Patient0 iteration with CR physics implemented. Extracting this
+                data using Python-based, observer-developed Voigt profile
+                fitting tools (linetools, pyigm, veeper), I was able to directly
+                compare spectral line properties in our simulation to
+                observations in the COS-Halos survey—these contributions to the
+                project resulted in my co-authorship on the publication.
+                Ultimately, we found the im- plementation of CR physics produced
+                simulated O vi and Si iii absorption feature widths in better
+                agreement with observations.
+              </p>
+              <p class="apa-reference">
+                Butsky, I., Werk, J., Tchernyshyov, K., Fielding, D., Breneman,
+                J., <strong>Piacitelli, D.</strong>, Quinn, T., Sanchez, N.,
+                Cruz, A., Hummels, C., et al., “The Impact of Cosmic Rays on the
+                Kinematics of the Circumgalactic Medium,” (submitted to ApJ)
+                <strong>2021</strong>
+              </p>
+            </div>
+          </section>
+        </article>
+        <article id="about" class="panel">
+          <header>
+            <h2>Hello!</h2>
+          </header>
 
-								<section>
-									
-									<div class="row">
-									<p>
-										I am interested in researching how to use simulations to better understand the circumgalactic medium and the processes that drive the galactic baryon cycle. 
-										I received my B.S. in Astronomy and Physics, with a minor in Applied Mathematics from the University of Washington in 2022. 
-										Currently, I am a graduate student at Rutgers University studying synthetic observations with Professor Alyson Brooks. 
-										My long term goals are to become an astronomy professor researching extragalactic astronomy and prioritizing inclusive STEM education. 
-									</p><p>
-										Outside of research, I am passionate about Diversity, Equity, and Inclusion (D.E.I) efforts. At the University of Washington (UW), I volunteered as an <a href="https://www.washington.edu/undergradresearch/students/urls/#:~:text=Undergraduate%20Research%20Leaders%20(URLs)%20are,their%20experiences%20with%20other%20undergraduates." target="_blank">Undergraduate Research Leader</a> and worked to motivate my peers across disciplines to participate in research, along with helping facilitate the UW Undergraduate Research Symposium. 
-										I also lead the Physical Sciences Curriculum team within <a href="https://synbioforeveryone.org/Home" target="_blank">Synbio for Everyone</a>—a UW-student organization aiming to improve accessibility and reduce equity gaps in STEM education. Moving forward, I hope to incorporate D.E.I work in each stage of my academic journey.
-									</p><p>
-										Personally, i like hikes and cats
-									</p>
-									</div>
-								</section>
-							</article>
+          <section>
+            <div class="row">
+              <p>
+                I am interested in researching how to use simulations to better
+                understand the circumgalactic medium and the processes that
+                drive the galactic baryon cycle. I received my B.S. in Astronomy
+                and Physics, with a minor in Applied Mathematics from the
+                University of Washington in 2022. Currently, I am a graduate
+                student at Rutgers University studying synthetic observations
+                with Professor Alyson Brooks. My long term goals are to become
+                an astronomy professor researching extragalactic astronomy and
+                prioritizing inclusive STEM education.
+              </p>
+              <p>
+                Outside of research, I am passionate about Diversity, Equity,
+                and Inclusion (D.E.I) efforts. At the University of Washington
+                (UW), I volunteered as an
+                <a
+                  href="https://www.washington.edu/undergradresearch/students/urls/#:~:text=Undergraduate%20Research%20Leaders%20(URLs)%20are,their%20experiences%20with%20other%20undergraduates."
+                  target="_blank"
+                  >Undergraduate Research Leader</a
+                >
+                and worked to motivate my peers across disciplines to
+                participate in research, along with helping facilitate the UW
+                Undergraduate Research Symposium. I also lead the Physical
+                Sciences Curriculum team within
+                <a href="https://synbioforeveryone.org/Home" target="_blank"
+                  >Synbio for Everyone</a
+                >—a UW-student organization aiming to improve accessibility and
+                reduce equity gaps in STEM education. Moving forward, I hope to
+                incorporate D.E.I work in each stage of my academic journey.
+              </p>
+              <p>Personally, i like hikes and cats</p>
+            </div>
+          </section>
+        </article>
 
-						<!-- Contact -->
-							<article id="contact" class="panel">
-								<form action="mail.php" method="POST">
-								<p>Name</p> <input type="text" name="name">
-								<p>Email</p> <input type="text" name="email">
-								<p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
-								<input type="submit" value="Send"><input type="reset" value="Clear">
-								</form>
-							</article>
+        <!-- Contact -->
+        <article id="contact" class="panel">
+          <form action="https://formspree.io/f/xzboyorg" method="POST">
+            <label>
+              Your email:
+              <input type="email" name="email" />
+            </label>
+            <label>
+              Your message:
+              <textarea name="message"></textarea>
+            </label>
+            <!-- your other form fields go here -->
+            <input type="submit" value="Send" /><input
+              type="reset"
+              value="Clear"
+            />
 
-					</div>
+            <!-- <button type="submit">Send</button> -->
+            <!-- <button type="reset" value="Clear">Reset</button> -->
+          </form>
+        </article>
+      </div>
 
-				<!-- Footer -->
-					<div id="footer">
-						<ul class="copyright">
-							<li>&copy; Untitled.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
-					</div>
+      <!-- Footer -->
+      <div id="footer">
+        <ul class="copyright">
+          <li>&copy; Untitled.</li>
+          <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+      </div>
+    </div>
 
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
