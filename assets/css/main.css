@@ -1463,7 +1463,7 @@ strong,
 b,
 h1,
 h2,
-h3,
+,
 h4,
 h5,
 h6 {
@@ -1481,10 +1481,7 @@ h2 {
   letter-spacing: -0.015em;
 }
 
-h3{
-  font-size: 1.2em;
-  letter-spacing: -0.015em;
-},
+h3,
 h4,
 h5,
 h6 {
