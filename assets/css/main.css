@@ -16,7 +16,10 @@ object,
 iframe,
 h1,
 h2,
-h3,
+h3{
+  font-size: 1.2em;
+  letter-spacing: -0.015em;
+},
 h4,
 h5,
 h6,
