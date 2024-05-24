@@ -163,7 +163,7 @@ textarea {
   text-indent: 5%;
 }
 a:link {
-  color: red;
+  color: CornflowerBlue;
 }
 /* Row */
 
@@ -1417,10 +1417,10 @@ input,
 textarea,
 select {
   font-family: "Source Sans Pro", sans-serif;
-  font-weight: 300;
-  color: #777777;
-  font-size: 20pt;
-  line-height: 1.75em;
+  font-weight: 400;
+  color: #4C4C4C;
+  font-size: 22pt;
+  line-height: 1.7em;
 }
 
 @media screen and (max-width: 1680px) {
@@ -1468,7 +1468,6 @@ h4,
 h5,
 h6 {
   font-weight: 400;
-  color: #363636;
 }
 
 h1 {
